@@ -1,0 +1,36 @@
+<android.support.wearable.view.BoxInsetLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/textViewsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        app:layout_box="all">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstChoiceTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Swipe left to start your password setup."
+            android:id="@+id/firstChoiceTextView"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
